@@ -133,8 +133,9 @@ progress::-webkit-progress-value {
     display: none;
 }
 
-.loading-text {
-    display: inline-block;
+#loading-message-container {
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
 }
 
