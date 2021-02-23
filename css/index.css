@@ -26,6 +26,7 @@ body {
     background-color: rgb(30, 30, 30);
     box-shadow: 0 0 500px rgba(0, 1, 1, 1) inset;
     margin: 0;
+    cursor: url('../img/cursor.png'), default;
 }
 
 #cursor {
@@ -195,6 +196,13 @@ progress::-webkit-progress-value {
     height: 25px;
     background: white;
 }
+
+#cursor {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
 #discord-title {
     color: white;
     font-size: 1.75vw;
@@ -270,4 +278,9 @@ progress::-webkit-progress-value {
 }
 .small-box:hover {
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+a {
+    text-decoration: none;
+    cursor: url('../img/cursor.png'), default;
 }
