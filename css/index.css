@@ -135,6 +135,7 @@ progress::-webkit-progress-value {
 
 .loading-text {
     display: inline-block;
+    font-size: 20px;
 }
 
 /*
