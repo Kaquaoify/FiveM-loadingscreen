@@ -20,6 +20,7 @@ files {
     'js/music-handler.js',
     'js/music-controls.js',
     'js/background-handler.js',
+    'js/cursor.js'
 }
 
 loadscreen 'index.html'
