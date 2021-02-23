@@ -29,6 +29,13 @@ body {
     cursor: url('../img/cursor.png'), default;
 }
 
+#cursor {
+    width: 24px;
+    height: 32px;
+    position: fixed;
+    z-index: 10000;
+}
+
 #background {
     position: fixed;
     width: 100%;
